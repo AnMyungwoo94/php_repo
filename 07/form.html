@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>POST 방식으로 서버 view.php 전송하기</h1>
+    <hr />
+    <form action="view.php" method="get">
+      <label for="name">이름 : </label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        maxlength="4"
+        placeholder="4글자 미만"
+      /><br />
+      <label for="phone">전화번호 : </label>
+      <input
+        type="tel"
+        name="phone"
+        id="phone"
+        maxlength="13"
+        placeholder="010-0000-0000"
+      /><br />
+      <input type="submit" value="확인" />
+    </form>
+  </body>
+</html>
